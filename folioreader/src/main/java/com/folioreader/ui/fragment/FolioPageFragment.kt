@@ -428,8 +428,8 @@ class FolioPageFragment : Fragment(),
                     mWebview!!.loadUrl(callHighlightSearchLocator)
 
                 } else if (isCurrentFragment) {
-                    val cfi = lastReadLocator!!.locations.cfi
-                    mWebview!!.loadUrl(String.format(getString(R.string.callScrollToCfi), cfi))
+                    val cfi = lastReadLocator?.locations?.cfi
+                    mWebview?.loadUrl(String.format(getString(R.string.callScrollToCfi), cfi))
 
                 } else {
                     if (spineIndex == mActivityCallback!!.currentChapterIndex - 1) {

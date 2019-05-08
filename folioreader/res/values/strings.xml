@@ -2,12 +2,12 @@
 
     <string name="app_name">FolioReader</string>
 
-    <string name="andada">Andada</string>
-    <string name="lato">Lato</string>
-    <string name="lora">Lora</string>
-    <string name="raleway">Raleway</string>
+    <string name="andada">IranSans</string>
+    <string name="lato">Homa</string>
+    <string name="lora">Yekan</string>
+    <string name="raleway">Nazanin</string>
 
-    <string name="andada_font">fonts/andada/Andada-Regular.otf</string>
+    <string name="andada_font">fonts/andada/Andada-Regular.ttf</string>
     <string name="lato_font">fonts/lato/Lato-Regular.ttf</string>
     <string name="lora_font">fonts/lora/Lora-Regular.ttf</string>
     <string name="raleway_font">fonts/raleway/Raleway-Regular.ttf</string>
